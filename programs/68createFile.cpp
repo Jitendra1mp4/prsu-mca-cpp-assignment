@@ -14,6 +14,7 @@ int main(){
     try{
         // creating a file with constructor
         fstream myFile("Rudra.txt", ios::out);
+        cout << "successfully created file...." << endl;
     }
     catch (const std::exception &e){
         cout << "Unable to create file." << endl;

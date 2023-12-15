@@ -13,7 +13,7 @@ int main() {
   printIntro("Aligning output left and setfill #",
              "05:30 13-11-2023");
   string name ;
-  cout << "enter name " ;
+  cout << "enter name : " ;
   getline(cin,name) ;
   cout << "\nleft aligned output\n";
 

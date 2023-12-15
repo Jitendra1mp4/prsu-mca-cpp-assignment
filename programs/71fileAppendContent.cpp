@@ -29,7 +29,7 @@ int main() {
   try {
     ofstream myFile(fileName, ios::app);  // open file with truncate
     // APPENDING content to file
-    myFile << "\nWE ARE THE NEW CONTENT APPENDED TO FILE SHIVA.TXT";
+    myFile << "\nWE ARE THE NEW CONTENT APPENDED TO FILE SHIVA.TXT\n";
     cout << "Successfully APPENDED!\n" << endl;
     myFile.close();
   } catch (const std::exception &e) {
@@ -38,7 +38,7 @@ int main() {
 
   try {
     ifstream myFile(fileName, ios::in);
-    cout << "content of the file AFTER TRUNCATE\n" << endl;
+    cout << "content of the file AFTER Append\n" << endl;
     string s;
     while (getline(myFile, s)) {
       cout << s;
