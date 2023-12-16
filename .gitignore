@@ -1,3 +1,4 @@
+.vscode/
 programs/*.exe
 *.zip
 *bin*
